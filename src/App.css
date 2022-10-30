@@ -1,6 +1,7 @@
 /* Karla - 400 | 600 | 700 */
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;600;700&display=swap');
 
+/* VARIABLES */
 :root {
 	--light-green: #606c38;
 	--dark-green: #283618;
@@ -9,6 +10,7 @@
 	--dark-tan: #bc6c25;
 }
 
+/* RESET */
 *,
 *::after,
 *::before {
@@ -16,10 +18,11 @@
 }
 
 body {
-	background: #fefae0;
+	background: var(--bg-light);
 	margin: 0;
 }
 
+/* NAV */
 .nav {
 	height: 80px;
 	display: flex;
@@ -36,6 +39,21 @@ body {
 	margin: 0;
 	font-weight: 700;
 	letter-spacing: -0.025em;
+}
+
+.nav-btns {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+}
+
+#mal,
+#frankie {
+	cursor: pointer;
+}
+
+#frankie {
+	margin-right: 20px;
 }
 
 .nav-btn {
