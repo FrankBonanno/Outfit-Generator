@@ -79,6 +79,7 @@ body {
 	background-color: var(--light-tan);
 }
 
+/* LOGIN PAGE */
 .login-container {
 	height: 100vh;
 	font-family: 'Karla', sans-serif;
@@ -171,5 +172,3 @@ hr.login-hr {
 }
 
 /* DASHBOARD */
-.dashboard {
-}
